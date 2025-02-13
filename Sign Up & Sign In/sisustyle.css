@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Bahnschrift Condensed;
+}
+
+body{
+    background: #0a2852;
+}
+.wrapper{
+    width: 325px;
+    padding: 1rem 1rem;
+    margin: 50px auto;
+    background-color: #044b9b;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px black;
+    position: relative;
+}
+.wrapper img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+
+
+h1{
+    font-size: 2rem;
+    color: #f5403b;
+    margin-bottom: 1.2rem;
+}
+input form{
+    width: 95%;
+    outline: none;
+    border: 1px solid #fe4538;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #fe4538;
+}
+
+
+
+button{
+    font-size: 1.5rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    width: 25%;
+    color: #f5403b;
+    cursor: pointer;
+    background: #0554b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+button:hover{
+    background: black;
+}
+input:focus{
+    border: 1px solid black;
+}
+
+
+
+.term{
+    margin-top: 0.2rem;
+}
+.term input{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label{
+    font-size: 0.7rem;
+}
+a{
+    color: #fe4538;
+    text-decoration: none;
+}
+
+
+
+.member{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1.4rem;
+    color: black;
+}
+.member a{
+    color: #f8433a;
+    text-decoration: none;
+}
+
+
+.recover{
+    text-align: center;
+    font-size: 1rem;
+    margin: auto;
+}
+.recover a{
+    text-decoration: none;
+    color: #fe4538;
+}
